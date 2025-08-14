@@ -204,6 +204,9 @@
         "node": ">=22"
       "npm": "9.x"
     },
+   "dependencies": {
+    "rsshub": "^2.0.0" 
+  }
     "pnpm": {
         "onlyBuiltDependencies": [
             "@bbob/core",
