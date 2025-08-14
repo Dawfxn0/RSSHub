@@ -1,20 +1,20 @@
 {
-  "name": "rsshub",
-  "description": "RSSHub 部署配置",
-  "repository": "https://github.com/DIYgod/RSSHub",
-  "scripts": {
-    "postdeploy": "npm run start"
-  },
-  "env": {
-    "NODE_ENV": {
-      "value": "production",
-      "generator": "secret"
+    "name": "rsshub",
+    "description": "RSSHub 部署配置",
+    "repository": "https://github.com/DIYgod/RSSHub",
+    "scripts": {
+        "postdeploy": "npm run start"
+    },
+    "env": {
+        "NODE_ENV": {
+            "value": "production",
+            "generator": "secret"
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
     }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
 }
