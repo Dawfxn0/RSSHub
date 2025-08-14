@@ -7,7 +7,6 @@
     },
     "env": {
         "NODE_ENV": {
-            "value": "production",
             "generator": "secret"
         }
     },
