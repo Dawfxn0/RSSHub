@@ -51,8 +51,7 @@
         "*.yml": "eslint --cache --fix"
     },
     "engines": {
-        "node": ">=22",
-        "npm": "9.x"
+        "node": ">=22" 
     },
     "dependencies": {
         "@bbob/html": "4.2.0",
