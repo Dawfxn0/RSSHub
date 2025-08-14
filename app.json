@@ -3,7 +3,7 @@
     "description": "RSSHub 部署配置",
     "repository": "https://github.com/DIYgod/RSSHub",
     "scripts": {
-        "postdeploy": "npm run start"
+        "postdeploy": "npm run migrate && npm run warmup"
     },
     "env": {
         "NODE_ENV": {
